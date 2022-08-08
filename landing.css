@@ -216,8 +216,55 @@ footer{
     margin-top: 2em auto;
 }
 /* MEDIA QUERRY */
-@media screen {
-    
+@media screen and (max-width:768px){
+    .mern{
+        height: auto;
+    }
+
+    .logo {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .first h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-div {
+        margin-bottom: 50px;
+    }
+
+
+    .btn {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .zuri h3 {
+        margin-top: 60px !important;
+    }
+
+    .flow{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .four{
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .flow h3 {
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
+
+
 }
-
-
